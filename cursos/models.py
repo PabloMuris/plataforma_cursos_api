@@ -18,6 +18,7 @@ class Curso(Base):
     class Meta:
         verbose_name = 'Curso'
         verbose_name_plural = 'Cursos'
+        ordening = ['id']
 
 
         def __str__(self):
